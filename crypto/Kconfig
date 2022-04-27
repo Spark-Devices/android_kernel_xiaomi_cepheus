@@ -4,8 +4,7 @@
 #
 config XOR_BLOCKS
 	tristate
-	depends on KERNEL_MODE_NEON
-	default y
+
 #
 # async_tx api: hardware offloaded memory transfer/transform support
 #
